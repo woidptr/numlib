@@ -14,10 +14,10 @@ pip install git+https://github.com/woidptr/numlib.git
 
 ## 🚀 Usage Examples
 
-### 1. Root Finding (Bisection Method)**
+### 1. Root Finding (Bisection Method)
 
 ```py
-from numerical_methods.roots import bisection
+from numlib.roots import bisection
 
 # Define the function f(x) = x^2 - 4
 my_func = lambda x: x**2 - 4.0
